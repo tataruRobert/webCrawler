@@ -32,7 +32,9 @@ class Crawler():
             for item in finalList:
                 if not item in list:
                     list.append(item)
-                    write(item)
+                    myFile.write(item)
+                    myFile.write('\n')
+
 
 
 
